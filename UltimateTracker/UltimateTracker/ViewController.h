@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+//proprty that exposes the ui button
+@property (nonatomic, strong) IBOutlet UIButton *button1;
+
+- (IBAction)button1click:(id)sender;
+
 @end

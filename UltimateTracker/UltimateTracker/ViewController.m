@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)button1click:(id)sender{
+    NSLog(@"Button 1");
+    [self.button1 setTitle:@"Hello" forState:UIControlStateNormal];
+    //self.button1.titleLabel.text = @"Hello";
+}
+
 @end
