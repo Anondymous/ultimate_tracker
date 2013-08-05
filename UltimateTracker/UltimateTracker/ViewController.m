@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UltimatePerson.h"
 
 @interface ViewController ()
 
@@ -17,9 +17,6 @@
 
 int counter = 0;
 
-/*- (id) init{
-    self = [super init];
-}*/
 
 - (void)viewDidLoad
 {

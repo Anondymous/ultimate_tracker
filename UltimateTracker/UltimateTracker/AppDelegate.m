@@ -7,13 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "UltimatePerson.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSLog(@"This is a test");
+    NSLog(@"Starting up");
+    UltimatePerson *player = [[UltimatePerson alloc]init];
     return YES;
 }
 							
