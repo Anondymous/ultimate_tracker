@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) int counter;
+
 //proprty that exposes the ui button
 @property (nonatomic, strong) IBOutlet UIButton *button1;
 

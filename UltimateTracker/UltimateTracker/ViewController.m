@@ -8,11 +8,18 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+int counter = 0;
+
+/*- (id) init{
+    self = [super init];
+}*/
 
 - (void)viewDidLoad
 {
@@ -28,8 +35,11 @@
 
 
 - (IBAction)button1click:(id)sender{
-    NSLog(@"Button 1");
-    [self.button1 setTitle:@"Hello" forState:UIControlStateNormal];
+    counter++;
+    NSLog(@"The value is %d", counter);
+    NSString *text =  [[NSNumber numberWithInt:counter] stringValue];
+
+    [self.button1 setTitle:text forState:UIControlStateNormal];
     //self.button1.titleLabel.text = @"Hello";
 }
 
