@@ -24,6 +24,8 @@
 		17B4A71917B039E7005D41AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B4A6F117B039E7005D41AE /* Foundation.framework */; };
 		17B4A72117B039E7005D41AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B4A71F17B039E7005D41AE /* InfoPlist.strings */; };
 		17B4A72417B039E7005D41AE /* UltimateTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B4A72317B039E7005D41AE /* UltimateTrackerTests.m */; };
+		17B4A72F17B049FE005D41AE /* UltimatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B4A72E17B049FE005D41AE /* UltimatePerson.m */; };
+		17B4A73017B049FE005D41AE /* UltimatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B4A72E17B049FE005D41AE /* UltimatePerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		17B4A72017B039E7005D41AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B4A72217B039E7005D41AE /* UltimateTrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UltimateTrackerTests.h; sourceTree = "<group>"; };
 		17B4A72317B039E7005D41AE /* UltimateTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltimateTrackerTests.m; sourceTree = "<group>"; };
+		17B4A72D17B049FE005D41AE /* UltimatePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UltimatePerson.h; sourceTree = "<group>"; };
+		17B4A72E17B049FE005D41AE /* UltimatePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UltimatePerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				17B4A70A17B039E7005D41AE /* MainStoryboard_iPad.storyboard */,
 				17B4A70D17B039E7005D41AE /* ViewController.h */,
 				17B4A70E17B039E7005D41AE /* ViewController.m */,
+				17B4A72D17B049FE005D41AE /* UltimatePerson.h */,
+				17B4A72E17B049FE005D41AE /* UltimatePerson.m */,
 				17B4A6F617B039E7005D41AE /* Supporting Files */,
 			);
 			path = UltimateTracker;
@@ -277,6 +283,7 @@
 				17B4A6FC17B039E7005D41AE /* main.m in Sources */,
 				17B4A70017B039E7005D41AE /* AppDelegate.m in Sources */,
 				17B4A70F17B039E7005D41AE /* ViewController.m in Sources */,
+				17B4A72F17B049FE005D41AE /* UltimatePerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B4A72417B039E7005D41AE /* UltimateTrackerTests.m in Sources */,
+				17B4A73017B049FE005D41AE /* UltimatePerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
